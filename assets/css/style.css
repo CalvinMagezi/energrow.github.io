@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: black;
+  background: white;
 }
 
 #preloader:before {
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #18d26e;
-  border-top-color: #d1e6f9;
+  border-top-color: #b6b6b6;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #000;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 12px 0 12px 30px;
   transition: 0.3s;
   font-size: 16px;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .mobile-nav {
@@ -616,9 +616,9 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background:#000000;
+  background:#dfdfdf;
   padding: 40px 0 20px 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .counts .counters span {
@@ -1770,7 +1770,7 @@ section {
   }
   .departments .nav-link.active {
     color: #fff;
-    background: #b80303;
+    background: #18d26e;
   }
 }
 
@@ -1779,9 +1779,9 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 0 0 30px 0;
-  color: #d0d0d0;
+  color: #0a0a0a;
   font-size: 14px;
-  background: #111111;
+  background: #c4c4c4;
 }
 
 #footer img{
@@ -1791,10 +1791,10 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #111111;
+  background: #fffafa;
   text-align: center;
   font-size: 15px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #footer .footer-newsletter h4 {
@@ -1843,8 +1843,8 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1b1b1b;
-  color: #fff;
+  background: #f7f7f7;
+  color: rgb(12, 12, 12);
 }
 
 #footer .footer-top .footer-contact {
@@ -1864,7 +1864,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #b7b7b7;
+  color: #080808;
 }
 
 #footer .footer-top h4 {
@@ -1902,7 +1902,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #aaaaaa;
+  color: #070707;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1916,8 +1916,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #373737;
-  color: #fff;
+  background: #b1b1b1;
+  color: rgb(0, 0, 0);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1930,7 +1930,7 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #4eb478;
-  color: #fff;
+  color: rgb(8, 8, 8);
   text-decoration: none;
 }
 
