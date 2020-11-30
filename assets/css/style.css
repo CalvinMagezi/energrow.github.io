@@ -752,7 +752,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/djddzs5pj/image/upload/v1605851213/Energrow/ctabg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/djddzs5pj/image/upload/v1605851213/Energrow/ctabg.jpg") center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -784,6 +784,12 @@ section {
 .cta .cta-btn:hover {
   background: #86BD20;
   border: 2px solid #86BD20;
+}
+
+@media(min-width: 1024px){
+  .cta {
+    background-attachment: fixed;
+  }
 }
 
 /*--------------------------------------------------------------
