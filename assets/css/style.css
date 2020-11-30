@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/headerbg1.jpg") top center;
+  background: url("https://res.cloudinary.com/djddzs5pj/image/upload/v1605851481/Energrow/headerbg1.jpg") top center;
   background-size: cover;
   position: relative;
   border-bottom: 1px solid #222;
@@ -648,13 +648,14 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  background: #86BD20;
 }
 
 .why-us .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #8ed851;
+  color: #fff;
 }
 
 .why-us .box h4 {
@@ -662,11 +663,11 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #2a2a2a;
+  color:#fff;
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: #fff;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -751,7 +752,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("../img/clients/ctabg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/djddzs5pj/image/upload/v1605851213/Energrow/ctabg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -952,7 +953,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/clients/testimonialsbg.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/djddzs5pj/image/upload/v1605851190/Energrow/testimonialsbg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
