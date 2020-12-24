@@ -392,15 +392,15 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   padding: 0 15px;
 }
 
 #hero h1 {
   margin: 0 0 30px 0;
-  font-size: 48px;
+  font-size: 54px;
   font-weight: 700;
   font-family: 'Cinzel', serif;
   line-height: 56px;
@@ -449,18 +449,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+
+  #hero .hero-container{
+    text-align: center;
+    align-items: center;
+
+  }
+
+  #hero:before{
+    background: rgba(0, 0, 0, 0.103);
+  }
+
   #hero {
     height: 100vh;
   }
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 48px;
+    line-height: 50px;
+    
   }
   #hero h2 {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 33px;
+    line-height: 40px;
     margin-bottom: 30px;
   }
+
+  #hero .btn-get-started{
+    width:100%;
+  } 
 }
 
 /*--------------------------------------------------------------
