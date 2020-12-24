@@ -1,9 +1,4 @@
-/**
-* Template Name: Plato - v2.1.0
-* Template URL: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -135,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cinzel', serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -381,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -407,17 +402,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
   font-size: 48px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Cinzel', serif;
   line-height: 56px;
-  color: #ffffff;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
  
 }
 
 #hero h2 {
-  color: #ffffff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: #fff;
   margin-bottom: 40px;
-  font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
   
 }
 
@@ -433,7 +430,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #eeeeee;
   background: #86BD20;
   color: #fff;
- 
+ width: 15%;
+ text-align: center;
 }
 
 #hero .btn-get-started:hover {
@@ -697,7 +695,7 @@ section {
 
 .features img{
   width: 100%;
-  height:250px;
+  height:350px;
 }
 
 .features .card-body {
@@ -1899,7 +1897,7 @@ section {
 
 @media(max-width:768px){
   .tabs img{
-    height:300px;
+    height:350px;
   }
 }
 
