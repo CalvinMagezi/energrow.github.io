@@ -1280,7 +1280,7 @@ section {
 
 .team .member .member-info {
   position: absolute;
-  bottom: -48px;
+  bottom: px;
   left: 20px;
   right: 20px;
   background: linear-gradient(360deg, #86BD20 0%, rgba(134, 189, 32, 0.9) 35%, rgba(134, 189, 32, 0.8) 100%);
