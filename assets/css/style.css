@@ -1350,7 +1350,7 @@ section {
 # Gallery
 --------------------------------------------------------------*/
 .gallery img{
-  height: 200px;
+  height: px;
   width: 100%;
 }
 
