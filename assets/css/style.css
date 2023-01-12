@@ -923,6 +923,9 @@ section {
   z-index: 1;
 }
 
+.portfolio .portfolio-wrap .catalogue {
+  height: 200px; 
+}
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
